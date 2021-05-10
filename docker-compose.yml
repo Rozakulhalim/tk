@@ -4,9 +4,9 @@ services:
   db:
     image: postgres
     environment:
-      - POSTGRES_DB=tortk
-      - POSTGRES_USER=postgres
-      - POSTGRES_PASSWORD=your-pass
+      - POSTGRES_DB=d32vubrgat3s8m
+      - POSTGRES_USER=yhyncntovmzndv
+      - POSTGRES_PASSWORD=2f25289efc5e3788a7be7c45e5edc8eca74735248bc996920d72ea67e684f391
   tortk:
     build: .
     command: bash start.sh
